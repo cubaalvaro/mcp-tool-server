@@ -1,16 +1,12 @@
 {
   "name": "mcp-tool-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "openai": "^5.13.1",
-    "ws": "^8.18.3"
+    "openai": "^4.0.0",
+    "ws": "^8.16.0"
   }
 }
